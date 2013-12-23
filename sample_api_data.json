@@ -1,0 +1,105 @@
+[{
+	"type": "chargement",
+	"date": "2013-12-15T23:00:00+0000",
+	"lieu": "BMON : NEF",
+	"debit": 0.0,
+	"credit": 100.0
+},
+{
+	"type": "paiement",
+	"date": "2013-08-27T07:49:00+0000",
+	"lieu": "Caisse 8 : Internef",
+	"debit": 1.0,
+	"credit": 0.0
+},
+{
+	"type": "paiement",
+	"date": "2013-08-27T09:57:00+0000",
+	"lieu": "Caisse 3 : R\u00E9fectoire lac",
+	"debit": 10.5,
+	"credit": 0.0
+},
+{
+	"type": "paiement",
+	"date": "2013-08-28T07:36:00+0000",
+	"lieu": "Caisse 8 : Internef",
+	"debit": 2.8,
+	"credit": 0.0
+},
+{
+	"type": "paiement",
+	"date": "2013-08-28T10:08:00+0000",
+	"lieu": "Caisse 4 : R\u00E9fectoire lac centre",
+	"debit": 7.9,
+	"credit": 0.0
+},
+{
+	"type": "paiement",
+	"date": "2013-08-28T14:16:00+0000",
+	"lieu": "Caisse 8 : Internef",
+	"debit": 6.5,
+	"credit": 0.0
+},
+{
+	"type": "paiement",
+	"date": "2013-09-03T10:24:00+0000",
+	"lieu": "Caisse SV 2",
+	"debit": 8.9,
+	"credit": 0.0
+},
+{
+	"type": "paiement",
+	"date": "2013-09-03T13:51:00+0000",
+	"lieu": "Caisse 8 : Internef",
+	"debit": 3.0,
+	"credit": 0.0
+},
+{
+	"type": "paiement",
+	"date": "2013-09-04T10:05:00+0000",
+	"lieu": "Caisse 5 : R\u00E9fectoire for\u00EAt centre",
+	"debit": 8.9,
+	"credit": 0.0
+},
+{
+	"type": "paiement",
+	"date": "2013-09-04T13:50:00+0000",
+	"lieu": "Caisse 8 : Internef",
+	"debit": 2.3,
+	"credit": 0.0
+},
+{
+	"type": "paiement",
+	"date": "2013-09-05T07:44:00+0000",
+	"lieu": "Caisse 8 : Internef",
+	"debit": 6.2,
+	"credit": 0.0
+},
+{
+	"type": "paiement",
+	"date": "2013-09-06T10:20:00+0000",
+	"lieu": "Caisse CSS",
+	"debit": 11.0,
+	"credit": 0.0
+},
+{
+	"type": "paiement",
+	"date": "2013-09-06T13:45:00+0000",
+	"lieu": "Caisse 8 : Internef",
+	"debit": 2.5,
+	"credit": 0.0
+},
+{
+	"type": "paiement",
+	"date": "2013-09-09T07:43:00+0000",
+	"lieu": "Caisse 8 : Internef",
+	"debit": 1.8,
+	"credit": 0.0
+},
+{
+	"type": "paiement",
+	"date": "2013-09-09T09:58:00+0000",
+	"lieu": "Caisse 4 : R\u00E9fectoire lac centre",
+	"debit": 10.5,
+	"credit": 0.0
+}]

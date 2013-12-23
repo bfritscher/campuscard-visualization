@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>CampusCard history</title>
+	<link rel="stylesheet" type="text/css" href="dc.css"/>
+</head>
+<body>
+<div class="main">
+	<div id="list-widget">
+		<span class="filter-count"></span> selected out of <span class="total-count"></span> records, watchtime <span class="totaltime"></span>
+	</div>
+
+	<div id="days">
+		<div>
+			<span class="title">Days</span>
+			<a class="reset" href="javascript:daysChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+			<span class="reset" style="display: none;">Current filter: <span class="filter"></span></span>
+		</div>
+	</div>
+	<div id="days-overview">
+	</div>
+</div>
+	<div id="category">
+		<div>
+			<span class="title">Lieu</span>
+			<a class="reset" href="javascript:categoryChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+			<span class="reset" style="display: none;"></span>
+		</div>
+	</div>
+	
+	<div id="type">
+		<div>
+			<span class="title">Type</span>
+			<a class="reset" href="javascript:typeChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+			<span class="reset" style="display: none;"></span>
+		</div>
+	</div>
+	
+	<div id="day">
+		<div>
+			<span class="title">Day of Week</span>
+			<a class="reset" href="javascript:dayChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+			<span class="reset" style="display: none;"></span>
+		</div>
+	</div>
+		
+	<div id="duration">
+		<div>
+			<span class="title">Montant</span>
+			<a class="reset" href="javascript:durationChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+			<span class="reset" style="display: none;">Current filter: <span class="filter"></span> min</span>
+		</div>
+	</div>
+
+	<div id="hours">
+		<div>
+			<span class="title">Time of Day</span>
+			<a class="reset" href="javascript:hoursChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+			<span class="reset" style="display: none;">Current filter: <span class="filter"></span></span>
+		</div>
+	</div>
+	
+	<div id="lieu">
+		<div>
+			<span class="title">Lieu Grouped</span>
+			<a class="reset" href="javascript:lieuChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+			<span class="reset" style="display: none;">Current filter: <span class="filter"></span></span>
+		</div>
+	</div>
+	
+<div id="data-table">
+    <div class="header">
+        <span class="dc-table-column _0">Date</span>
+        <span class="dc-table-column _1">Lieu</span>
+        <span class="dc-table-column _2">Montant</span>
+    </div>
+	<div id="data-table-content">
+	
+	</div>
+	<div class="header">
+        <span class="dc-table-column _0"></span>
+        <span class="dc-table-column _1"></span>
+        <span  class="dc-table-column _2">Total <span id="total"></span></span>
+    </div>
+</div>
+
+	<h1 id="logo">Campus<span class="accent">Card</span><sup>history</sup></h1>
+	
+	
+	
+	<script src="d3.min.js"></script>
+	<script src="crossfilter.min.js"></script>
+	<script src="dc.min.js"></script>
+	<script src="linkify.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
